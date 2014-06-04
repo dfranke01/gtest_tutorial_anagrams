@@ -1,0 +1,29 @@
+code from the gtest tutorial found at http://2manyprojects.net
+
+integrates gtest with visual studio express 2010.
+
+there are 3 projects within anagram.sln.
+    1) anagramMain - think of this as your "application", i.e. no 
+                     testing code will be included or referenced.
+
+    2) anagramTest - this project contains your test cases, and test
+                     data. Has refs to anagramLib, and gtest
+
+    3) anagramLib - this project contains the functions that are tested
+                    using gtest, and called from your main() 
+                    application
+
+
+Instructions
+   
+    1) checkout code from repository
+    2) open gtest_tutorial_anagrams\gtest-1.7.0\msvc\gtest-md.sln and
+       build it.
+    3) open anagram.sln and build.
+
+
+
+Data files
+   
+  wordlookup.txt is a list of dictionary words.
+    
